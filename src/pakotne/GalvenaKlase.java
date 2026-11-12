@@ -38,20 +38,25 @@ public class GalvenaKlase {
 				KlaseMetodiem.ievaditStudentus(scan);
 				break;
 			case 2:
-				KlaseMetodiem.ievaditKriterijuSk(scan, studenti,kriteriji,kriterijaSvars,kriterijaVertejums,semestraVertejums);
+				KlaseMetodiem.ievaditKriterijuSk(scan);
 				break;
 			case 3:
-				KlaseMetodiem.ievaditKriterijuSvarus(scan, kriteriji, kriterijaSvars);break;
+				KlaseMetodiem.ievaditKriterijuSvarus(scan);
+				break;
 			case 4:
-				KlaseMetodiem.IevaditVertejumi(scan,kriterijaVertejums,kriteriji,studenti);
+				KlaseMetodiem.IevaditVertejumi(scan);
 				break;
 			case 5:
+				KlaseMetodiem.LabotKriterijumi(scan);
 				break;
 			case 6:
+				KlaseMetodiem.LabotKriterijumiSvarus(scan);
 				break;
 			case 7:
+				KlaseMetodiem.LabotVertejumi(scan);
 				break;
 			case 8:
+				KlaseMetodiem.GalaVertejums(scan);
 				break;
 			case 9:
 				break;
